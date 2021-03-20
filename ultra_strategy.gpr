@@ -1,0 +1,7 @@
+project Ultra_Strategy is
+
+  for Main use ("main.adb");
+  for Source_Dirs use ("src");
+  for Object_Dir use "obj/";
+
+end Ultra_Strategy;
