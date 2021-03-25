@@ -1,10 +1,10 @@
 run:
-	gnatmake src/*
-	src/main
+	gprbuild -p ultra_strategy.gpr
+	obj/main
 
 build:
-	gnatmake src/*
+	gprbuild -p ultra_strategy.gpr
 
 clean:
-	rm -rf src/*.o
-	rm -rf src/*.ali
+	rm -rf obj/*
+	mkdir -p obj
